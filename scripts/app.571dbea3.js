@@ -200,6 +200,11 @@ angular
         controller: 'BookrequestCtrl',
         controllerAs: 'bookrequest'
       })
+      .when('/search', {
+        templateUrl: 'views/search.html',
+        controller: 'SearchCtrl',
+        controllerAs: 'search'
+      })
       .otherwise({
         redirectTo: '/'
       });
